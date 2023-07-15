@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    <title>
+        DJ web app
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <div class="heading">
+            <h1><b> AI DJ WEB APP😎😘</b></h1>
+            <h3>NOTE- Move your left-hand wrist up and down for increasing and decreasing volume. Move your right-hand
+                wrist
+                up and down for increasing and decreasing speed🤗😚</h3>
+        </div>
+        <br>
+        <button id="play" onclick="playsong()">PLAY</button>
+        <button id="stop" onclick="stopsong()">STOP</button>
+        <br>
+        <br>
+
+        <div id="dj1">
+            <img src="dj.gif">
+            <h2 class="sv" id="speed"></h2>
+        </div>
+
+        <div id="dj2">
+            <img src="dj.gif">
+            <h2 class="sv" id="volume"></h2>
+        </div>
+
+        <div id="name">
+            <h2 id="developed_by">IIII😎Developed By - Naitik😎 IIII 🤗Directed By - Mrs.Arwa🤗IIII</h2>
+        </div>
+    </center>
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+body {
+    font-family: 'Acme', sans-serif;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.heading {
+    background-color: black;
+    color: aliceblue;
+    margin-top: -20px;
+    padding: 10px;
+}
+
+#play{
+    font-size: 35px;
+    width: 20%;
+    background-color: green;
+    color: aliceblue;
+    border-radius: 7px;
+    box-shadow: 5px 5px 10px white;
+    text-shadow: 2px 2px 2px rgb(0, 255, 170);
+    border: 5px solid rgb(0, 0, 0);
+}
+
+#stop{
+    font-size: 35px;
+    width: 20%;
+    background-color: red;
+    color: aliceblue;
+    border-radius: 7px;
+    box-shadow: 5px 5px 10px white;
+    text-shadow: 2px 2px 2px rgb(0, 255, 170);
+    border: 5px solid rgb(0, 0, 0);
+}
+
+
+h1{
+    color: rgb(0, 255, 242);
+}
+
+#dj1{
+    float: left;
+    margin-left: 50px;
+    border: 7px solid aquamarine;
+    background-color: black;
+    box-shadow: 5px 5px 10px rgb(251, 255, 0);
+}
+
+#dj2{
+    float: right;
+    margin-right: 50px;
+    border: 7px solid aquamarine;
+    background-color: black;
+    box-shadow: 5px 5px 10px rgb(251, 255, 0);
+}
+
+img{
+    width:300px;
+    height: 250px;
+}
+
+.sv{
+    background-color: peachpuff;
+    font-size: 50px;
+    color: blue;
+    border-radius: 5px;
+}
+
+#name{
+    background-color: black;
+    color: aliceblue;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+canvas{
+    box-shadow: 5px 5px 10px white;
+    border: 10px solid rgb(255, 0, 0);
+}
